@@ -28,7 +28,7 @@ namespace gemstone.gemtem
     /// <summary>
     /// The <see cref="gemstone.gemtem"/> namespace organizes all Gemstone library functionality
     /// related to gemtem. The root gemtem namespace also includes common gemtem classes,
-    /// e.g., <see cref="ConcurrencyLimiter"/>.
+    /// e.g., <see cref="Class"/>.
     /// </summary>
     [CompilerGenerated]
     class NamespaceDoc
