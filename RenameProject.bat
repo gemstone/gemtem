@@ -1,5 +1,6 @@
 @ECHO OFF
 SET destU=%1
+IF /I "%destU%"=="" SET /P destU=Enter PascalCase target library title, e.g., "Threading" (without quotes):
 SET srcU=%2
 IF /I "%srcU%"=="" SET srcU=GemTem
 SET srcL=%srcU%
