@@ -31,5 +31,7 @@ REN ".\src\gemstone.%srcL%" "gemstone.%destL%"
 
 ENDLOCAL
 ECHO.
-ECHO Project Rename Complete.
+ECHO Project Rename to "%destU%" is now Complete.
+ECHO It is recommended to now delete the "RenameProject.bat" script and the ".\build\tools\" folder.
 ECHO.
+PAUSE
