@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-    <RootNamespace>gemstone.gemtem</RootNamespace>
-    <PackageId>gemstone.gemtem</PackageId>
+    <RootNamespace>Gemstone.GemTem</RootNamespace>
+    <PackageId>Gemstone.GemTem</PackageId>
     <Authors>Grid Protection Alliance</Authors>
     <Company>Grid Protection Alliance</Company>
-    <Product>gemstone</Product>
+    <Product>Gemstone</Product>
     <PackageDescription>GPA Gemstone GemTem Library</PackageDescription>
     <PackageIcon>gemstone-square-128.png</PackageIcon>
     <Description>GPA Gemstone GemTem Library</Description>
@@ -16,7 +16,7 @@
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>GPA;gemstone;library;gemtem</PackageTags>
+    <PackageTags>GPA;Gemstone;library;gemtem</PackageTags>
     <LangVersion>7.3</LangVersion>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,17 +42,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\common\src\gemstone\gemstone.common.csproj" Condition="'$(Configuration)'=='Development'" />
-    <PackageReference Include="gemstone.common" Version="1.0.0" Condition="'$(Configuration)'!='Development'" />
+    <ProjectReference Include="..\..\..\common\src\Gemstone\Gemstone.Common.csproj" Condition="'$(Configuration)'=='Development'" />
+    <PackageReference Include="Gemstone.Common" Version="1.0.0" Condition="'$(Configuration)'!='Development'" />
 
-    <!-- <ProjectReference Include="..\..\..\expressions\src\gemstone.expressions\gemstone.expressions.csproj" Condition="'$(Configuration)'=='Development'" /> -->
-    <!-- <PackageReference Include="gemstone.expressions" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
+    <!-- <ProjectReference Include="..\..\..\expressions\src\Gemstone.Expressions\Gemstone.Expressions.csproj" Condition="'$(Configuration)'=='Development'" /> -->
+    <!-- <PackageReference Include="Gemstone.Expressions" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
 
-    <!-- <ProjectReference Include="..\..\..\threading\src\gemstone.threading\gemstone.threading.csproj" Condition="'$(Configuration)'=='Development'" /> -->
-    <!-- <PackageReference Include="gemstone.threading" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
+    <!-- <ProjectReference Include="..\..\..\threading\src\Gemstone.Threading\Gemstone.Threading.csproj" Condition="'$(Configuration)'=='Development'" /> -->
+    <!-- <PackageReference Include="Gemstone.Threading" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
 
-    <!-- <ProjectReference Include="..\..\..\numeric\src\gemstone.numeric\gemstone.numeric.csproj" Condition="'$(Configuration)'=='Development'" /> -->
-    <!-- <PackageReference Include="gemstone.numeric" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
+    <!-- <ProjectReference Include="..\..\..\numeric\src\Gemstone.Numeric\Gemstone.Numeric.csproj" Condition="'$(Configuration)'=='Development'" /> -->
+    <!-- <PackageReference Include="Gemstone.Numeric" Version="1.0.0" Condition="'$(Configuration)'!='Development'" /> -->
   </ItemGroup>
 
 </Project>
