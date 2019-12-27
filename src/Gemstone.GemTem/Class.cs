@@ -21,7 +21,7 @@
 //
 //******************************************************************************************************
 
-namespace gemstone.gemtem
+namespace Gemstone.GemTem
 {
     /// <summary>
     /// Sample class for new GemTem library.
