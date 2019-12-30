@@ -21,12 +21,9 @@
 //
 //******************************************************************************************************
 
-using System;
-using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Gemstone.GemTem;
 
-namespace UnitTests
+namespace Gemstone.GemTem.UnitTests
 {
     [TestClass]
     public class Tests
