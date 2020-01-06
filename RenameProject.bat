@@ -27,7 +27,7 @@ PAUSE
 .\build\tools\ReplaceInFiles /r /v /c ".\src\*.*" %srcL% %destL%
 .\build\tools\ReplaceInFiles /r /v /c ".\docs\*.*" %srcL% %destL%
 .\build\tools\BRC64 /REPLACECS:%srcL%:%destL% /RECURSIVE /EXECUTE
-REN ".\src\gemstone.%srcL%" "gemstone.%destL%"
+REN ".\src\Gemstone.%srcU%" "Gemstone.%destU%"
 
 ENDLOCAL
 ECHO.
