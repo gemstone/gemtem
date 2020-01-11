@@ -12,7 +12,7 @@
     <Description>GPA Gemstone GemTem Library</Description>
     <Copyright>Copyright © 2019</Copyright>
     <PackageProjectUrl>https://github.com/gemstone</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/gemstone/gemstone.gemtem</RepositoryUrl>
+    <RepositoryUrl>https://github.com/gemstone/gemtem</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
