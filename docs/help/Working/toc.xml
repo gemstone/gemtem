@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="N:Gemstone.GemTem" project="_Namespaces" file="N_Gemstone_GemTem" sortOrder="1">
+    <topic id="T:Gemstone.GemTem.Class" project="Gemstone.GemTem" file="T_Gemstone_GemTem_Class">
+      <topic id="M:Gemstone.GemTem.Class.#ctor" project="Gemstone.GemTem" file="M_Gemstone_GemTem_Class__ctor" />
+      <topic id="Methods.T:Gemstone.GemTem.Class" project="Gemstone.GemTem" file="Methods_T_Gemstone_GemTem_Class" />
+    </topic>
+  </topic>
+</topics>
