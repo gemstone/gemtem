@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<topics>
-  <topic id="N:Gemstone.GemTem" type="API" />
-  <topic id="T:Gemstone.GemTem.Class" type="API" />
-  <topic id="Methods.T:Gemstone.GemTem.Class" type="API" />
-  <topic id="M:Gemstone.GemTem.Class.#ctor" type="API" />
-</topics>
