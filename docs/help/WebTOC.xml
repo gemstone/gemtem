@@ -2,8 +2,8 @@
 <HelpTOC>
 
   <HelpTOCNode Title="About" Url="html/About.htm" />
-  <HelpTOCNode Id="7d13dc1b-1ac2-4c8c-bebe-60f3d6158da0" Title="Gemstone.GemTem" Url="html/N_Gemstone_GemTem.htm">
-    <HelpTOCNode Id="f05dfcf8-668e-4527-a0c4-e6357e4f6a29" Title="Class Class" Url="html/T_Gemstone_GemTem_Class.htm">
+  <HelpTOCNode Id="22353a95-c93a-498f-81cd-b9b9c50e112f" Title="Gemstone.GemTem" Url="html/N_Gemstone_GemTem.htm">
+    <HelpTOCNode Id="47678308-38d0-4beb-8a58-b6cfc7bcd9a5" Title="Class Class" Url="html/T_Gemstone_GemTem_Class.htm">
       <HelpTOCNode Title="Class Constructor " Url="html/M_Gemstone_GemTem_Class__ctor.htm" />
       <HelpTOCNode Title="Class Methods" Url="html/Methods_T_Gemstone_GemTem_Class.htm" />
     </HelpTOCNode>
