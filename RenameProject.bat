@@ -23,6 +23,7 @@ ECHO About to rename "%srcU%/%srcL%" to "%destU%/%destL%", press Ctrl+C to cance
 PAUSE
 .\build\tools\ReplaceInFiles /r /v /c ".\src\*.*" %srcU% %destU%
 .\build\tools\ReplaceInFiles /r /v /c ".\docs\*.*" %srcU% %destU%
+.\build\tools\ReplaceInFiles /v /c "appveyor.yml" %srcU% %destU%
 .\build\tools\BRC64 /REPLACECS:%srcU%:%destU% /RECURSIVE /EXECUTE
 .\build\tools\ReplaceInFiles /r /v /c ".\src\*.*" %srcL% %destL%
 .\build\tools\ReplaceInFiles /r /v /c ".\docs\*.*" %srcL% %destL%
