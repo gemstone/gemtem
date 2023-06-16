@@ -50,7 +50,30 @@
   <colorizer syntaxFile="{@CoreComponentsFolder}Colorizer\highlight.xml" styleFile="{@CoreComponentsFolder}Colorizer\highlight.xsl" stylesheet="{@CoreComponentsFolder}Colorizer\highlight.css" scriptFile="{@CoreComponentsFolder}Colorizer\highlight.js" disabled="{@DisableCodeBlockComponent}" language="cs" tabSize="0" numberLines="false" outlining="false" keepSeeTags="false" defaultTitle="true" />
 </component>
       </ComponentConfig>
-<ComponentConfig id="API Token Resolution" enabled="True"><component id="API Token Resolution">{@TokenFiles}
+      <ComponentConfig id="Resolve ThirdParty Reference Links" enabled="True">
+        <component id="Resolve ThirdParty Reference Links">
+          <configuration>
+            <urlProviders>
+              <!-- Add Gemstone root namespace last because it has the widest match criteria -->
+              <!-- Pattern excludes target namespace so local memmbers are not redirected to common -->
+              <formattedProvider title="Gemstone Common URL Provider">
+                <targetMatcher pattern=".:Gemstone\.(?!GemTem\.)..+" fullyQualifiedMemberName="false" />
+                <targetFormatter>
+                  <steps>
+                    <replace pattern="T:" with="T_" />
+                    <replace pattern="E:" with="E_" />
+                    <replace pattern="M:" with="M_" />
+                    <replace pattern="P:" with="P_" />
+                    <replace pattern="\." with="_" />
+                  </steps>
+                </targetFormatter>
+                <urlFormatter format="https://gemstone.github.io/common/help/html/{target}.htm" target="_self" />
+              </formattedProvider>
+            </urlProviders>
+          </configuration>
+        </component>
+      </ComponentConfig>
+      <ComponentConfig id="API Token Resolution" enabled="True"><component id="API Token Resolution">{@TokenFiles}
 <replace elements="/*//token" item="string(.)" /></component></ComponentConfig>
 <ComponentConfig id="IntelliSense Component" enabled="True"><component id="IntelliSense Component"><output includeNamespaces="false" namespacesFile="Namespaces" folder="{@OutputFolder}" boundedCapacity="100" /></component></ComponentConfig>
 <ComponentConfig id="Syntax Component" enabled="True"><component id="Syntax Component"><syntax input="/document/reference" output="/document/syntax" renderReferenceLinks="true" /><generators>
